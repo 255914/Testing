@@ -13,7 +13,7 @@
 #include "candy_operations.h"
 
 //#include "candy_operations.c"
-#define PROJECT_NAME "CANDY"
+#define PROJECT_NAME "candy"
 
 /* Prototypes for all the test functions */
 void test_sort_array(void);
