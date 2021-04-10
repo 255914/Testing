@@ -8,6 +8,7 @@
  * @copyright Copyright (c) 2021
  * 
  */
+#include <candy_operations.h>
 int main(){
     /**
      * @brief Static Local Variables
