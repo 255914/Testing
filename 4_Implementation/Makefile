@@ -6,7 +6,7 @@
 # @copyright Copyright (c) 2021
 
 # Name of the project
-PROJECT_NAME = CANDY
+PROJECT_NAME = candy
 
 # Output directory
 BUILD = build
