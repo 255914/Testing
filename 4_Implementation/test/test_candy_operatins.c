@@ -44,19 +44,19 @@ int main()
 
 /* Write all the test functions */ 
 void test_sort_array(void) {
-  /*TEST_ASSERT_EQUAL(sort_array(2 2,1 1,3,0 0));
+  TEST_ASSERT_EQUAL(sort_array(2 2,1 1,3,0 0));
   TEST_ASSERT_EQUAL(sort_array(2 2,1 1,2,0 0));
   TEST_ASSERT_EQUAL(sort_array(2 0,1 0,1,0 0));
   TEST_ASSERT_EQUAL(sort_array(1 1,1 1,2,0 0));
-  TEST_ASSERT_EQUAL(sort_array(1 0,1 0,1,0 0));*/
+  TEST_ASSERT_EQUAL(sort_array(1 0,1 0,1,0 0));
   
   /* Dummy fail*/
   //TEST_ASSERT_EQUAL(15000, sort_array(7500, 7500));
 }
 
 void test_merge_array(void) {
- // TEST_ASSERT_EQUAL(merge_array(2 2,2 2,1 0,1 1,2 1,1 0,1,1,0 0));
- // TEST_ASSERT_EQUAL(merge_array(1 1,1 0,1 0,1 1,1 0,1 0,1,1,0 0)); 
+ TEST_ASSERT_EQUAL(merge_array(2 2,2 2,1 0,1 1,2 1,1 0,1,1,0 0));
+ TEST_ASSERT_EQUAL(merge_array(1 1,1 0,1 0,1 1,1 0,1 0,1,1,0 0)); 
   //TEST_ASSERT_EQUAL(merge_array(2 2,1 2,1 1,1 1,1 2,2 1,2,1,0 0));
   /* Dummy fail*/
   //TEST_ASSERT_EQUAL(100, merge_array(1000, 900));
