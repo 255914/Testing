@@ -28,4 +28,4 @@ jobs:
     - name: make coverage
       run: make -C 4_Implementation/ coverageCheck
     - name: GCov only
-      run:  gcovr -r .
+      run:  gcovr -r
