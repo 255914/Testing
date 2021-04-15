@@ -30,8 +30,8 @@ int main(){
   int **even_table,**odd_table;
   long long ans=0;
   
-  
-  scanf("%d",&num_of_stacks);
+  num_of_stacks =5;
+  //scanf("%d",&num_of_stacks);
   /**
    * @brief Dynamic Memory Allocation
    * 
@@ -62,8 +62,9 @@ int main(){
    * @brief Starting the Main Operations
    * 
    */
-  for(iterator_first=0;iterator_first<num_of_stacks;iterator_first++)
-      scanf("%d",dyn_ptr+iterator_first);
+  /*for(iterator_first=0;iterator_first<num_of_stacks;iterator_first++)
+      scanf("%d",dyn_ptr+iterator_first);*/
+    dyn_ptr[5] = {1,1,2,2,3};
   /**
    * @brief 
    * 
