@@ -29,7 +29,7 @@ int main(){
   int *count_even,*count_odd;
   int **even_table,**odd_table;
   long long ans=0;
-  
+  int arr[5] = {1,1,2,2,3};
   num_of_stacks =5;
   //scanf("%d",&num_of_stacks);
   /**
@@ -62,9 +62,9 @@ int main(){
    * @brief Starting the Main Operations
    * 
    */
-  /*for(iterator_first=0;iterator_first<num_of_stacks;iterator_first++)
-      scanf("%d",dyn_ptr+iterator_first);*/
-    dyn_ptr[5] = {1,1,2,2,3};
+  for(iterator_first=0;iterator_first<num_of_stacks;iterator_first++)
+      dyn_ptr+iterator_first=arr[iterator_first];
+   
   /**
    * @brief 
    * 
