@@ -63,7 +63,7 @@ int main(){
    * 
    */
   for(iterator_first=0;iterator_first<num_of_stacks;iterator_first++)
-      dyn_ptr+iterator_first=arr[iterator_first];
+      *dyn_ptr+iterator_first=arr[iterator_first];
    
   /**
    * @brief 
